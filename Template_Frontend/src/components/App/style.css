@@ -3,11 +3,10 @@
 }
 
 .AppMenu {
-  background-color: #222;
+  background-color: rgb(42, 42, 42);
   height: 70px;
   padding: 0px;
   color: rgb(151, 152, 151);
-  border-bottom: 1px solid rgb(151, 152, 151);
   width: 100%;
   display: block;
   margin: 0px;
@@ -35,13 +34,14 @@
   font-family: monospace;
   min-height: 45px;
   padding-right: 30px;
+  padding-left: 30px;
   cursor: pointer;
 }
 .AppMenuItem:hover {
-  background-color: rgb(193, 192, 194);
-  color: black;
+  background-color: rgb(151, 152, 151);;
+  color: rgb(42, 42, 42);
 }
-
-.App-intro {
-  font-size: large;
+.AppMenuItemAccount:hover {
+  background-color: rgb(151, 152, 151);;
+  color: rgb(42, 42, 42);
 }

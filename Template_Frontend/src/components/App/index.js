@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="AppMenu">
-          <div className={classnames('AppMenuItem')}>Home</div>
+          <div className={classnames('AppMenuItem')}>Inicio</div>
           <div className={classnames('AppMenuItem')}>Productos</div>
           <div className={classnames('AppMenuItemAccount')}>Mi Cuenta</div>
         </div>
