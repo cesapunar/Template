@@ -1,34 +1,23 @@
 import React, { Component } from 'react';
 import classnames from 'classnames'
-import Icon from 'react-fa'
+
 //Style
 import './style.css';
 
 //components
 import Home from './../Home'
-
-class App extends Component {
+import MenuItem from './MenuItem'
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="AppMenu">
-          <div className={classnames('AppMenuItem')}>
-            <Icon className={classnames('AppMenuItemIcon')} name="home"/>
-            Inicio
-          </div>
-          <div className={classnames('AppMenuItem')}>
-            <Icon className={classnames('AppMenuItemIcon')} name="product-hunt"/>
-            Productos
-          </div>
-          <div className={classnames('AppMenuItemAccount')}>
-            <Icon className={classnames('AppMenuItemIcon')} name="user-circle-o"/>
-            Mi Cuenta
-          </div>
+      <div className={classnames("App")}>
+        <div className={classnames("AppMenu")}>
+          <MenuItem to='/' icon='home' name='Inicio' account={false}/>
+          <MenuItem to='/products' icon='product-hunt' name='Productos' account={false}/>
+          <MenuItem to='/account' icon='user-circle-o' name='Mi Cuenta' account={true}/>
         </div>
         <Home/>
       </div>
     );
   }
 }
-
-export default App;

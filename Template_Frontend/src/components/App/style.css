@@ -1,7 +1,6 @@
 .App {
   text-align: center;
 }
-
 .AppMenu {
   background-color: rgb(42, 42, 42);
   height: 70px;
@@ -10,43 +9,4 @@
   width: 100%;
   display: block;
   margin: 0px;
-}
-.AppMenuItem {
-  min-width: 100px;
-  color: rgb(151, 152, 151);
-  text-align: center;
-  padding-top: 25px;
-  display: inline-block;
-  float: left;
-  font-size: large;
-  font-family: monospace;
-  min-height: 45px;
-  cursor: pointer;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.AppMenuItemAccount {
-  min-width: 100px;
-  color: rgb(151, 152, 151);
-  text-align: center;
-  padding-top: 25px;
-  display: inline-block;
-  float: right;
-  font-size: large;
-  font-family: monospace;
-  min-height: 45px;
-  padding-right: 30px;
-  padding-left: 30px;
-  cursor: pointer;
-}
-.AppMenuItem:hover {
-  background-color: rgb(151, 152, 151);;
-  color: rgb(42, 42, 42);
-}
-.AppMenuItemAccount:hover {
-  background-color: rgb(151, 152, 151);;
-  color: rgb(42, 42, 42);
-}
-.AppMenuItemIcon{
-  margin-right: 10px;
 }

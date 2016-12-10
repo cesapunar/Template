@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
-import classnames from 'classnames'
-import ImageGallery from 'react-image-gallery';
+import ImageGallery from 'react-image-gallery'
 
 //Style
 import './style.css'
-import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
-class Home extends Component {
+export default class Home extends Component {
   render() {
     const images = [
       {
@@ -36,5 +34,3 @@ class Home extends Component {
     );
   }
 }
-
-export default Home;
