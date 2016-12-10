@@ -6,8 +6,10 @@
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "classnames": "^2.2.5",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-image-gallery": "^0.7.4",
     "react-router": "^2.8.0"
   },
   "scripts": {
