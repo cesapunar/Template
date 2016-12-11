@@ -5,7 +5,6 @@ import classnames from 'classnames'
 import './style.css';
 
 //components
-import Home from './../Home'
 import MenuItem from './MenuItem'
 export default class App extends Component {
   render() {
@@ -16,7 +15,7 @@ export default class App extends Component {
           <MenuItem to='/products' icon='product-hunt' name='Productos' account={false}/>
           <MenuItem to='/account' icon='user-circle-o' name='Mi Cuenta' account={true}/>
         </div>
-        <Home/>
+        {this.props.children}
       </div>
     );
   }

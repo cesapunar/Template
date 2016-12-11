@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ImageGallery from 'react-image-gallery'
+import classnames from 'classnames'
 
 //Style
 import './style.css'
@@ -23,7 +24,7 @@ export default class Home extends Component {
       }
     ]
     return (
-      <div className="Home">
+      <div className={classnames("Home")}>
         <ImageGallery
         ref={i => this._imageGallery = i}
         items={images}
